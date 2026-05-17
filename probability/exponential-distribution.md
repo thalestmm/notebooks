@@ -31,7 +31,7 @@ timeframe $a \leq T \leq b$ using the CDF:
 
 $$ P[a \leq T \leq b] = \int_a^b \lambda e^{- \lambda t}dt = e^{-\lambda a } - e^{-\lambda b}$$
 
-## Lack of Memory
+## Memoryless Property
 
 One key characteristic of the exponential distribution is the lack of memory.
 That is, if the event did not happen yet, the probability that it happens
