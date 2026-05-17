@@ -61,3 +61,7 @@ $$ 1 - e^{-\lambda t_{1/2}} = 0.5 $$
 $$ e^{-\lambda t_{1/2}} = - 0.5 $$
 $$ -\lambda t_{1/2} = \ln{0.5} = - \ln(2) $$
 $$ \lambda = \frac{\ln(2)}{t_{1/2}} $$
+
+## References
+
+* [The Exponential Distribution: Time Between Poisson Events](https://www.youtube.com/watch?v=C7V3d2yB58U)
