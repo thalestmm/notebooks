@@ -1,5 +1,3 @@
-# @thalestmm's nbooks
+# @thalestmm's notebooks
 
 *Building foundational knowledge in the era of endless AI slop.*
-
-**nbooks** = **n**ote**books**
