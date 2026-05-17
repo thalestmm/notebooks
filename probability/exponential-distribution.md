@@ -16,7 +16,7 @@ The distribution takes a single parameter $\lambda$ and it's PDF is calculated
 as such:
 
 $$
-  P[T = t] = \begin{cases}
+  f(t) = \begin{cases}
     \lambda e^{-\lambda t} & \text{if } t \geq 0 \\
     0 & \text{if } t < 0 \\
   \end{cases}
@@ -24,7 +24,7 @@ $$
 
 The CDF can be calculated normally as:
 
-$$ F(t) = \int_{- \infty}^t P(t)dt = \int_{0}^t P(t)dt = 1 - e^{-\lambda t}$$
+$$ F(t) = \int_{- \infty}^t P(x)dx = \int_{0}^t P(x)dx = 1 - e^{-\lambda t}$$
 
 With this, we can obtain the probability that the event happens within a
 timeframe $a \leq T \leq b$ using the CDF:
@@ -42,19 +42,22 @@ $$P[T > t + s | T > s] = P[T > t]$$
 
 ## Expected Values
 
-$$E[X] = \frac{1}{\lambda}$$
-$$Var[X] = \frac{1}{\lambda ^2}$$
-$$\sigma[X] = \frac{1}{\lambda}$$
+$$E[T] = \frac{1}{\lambda}$$
+$$Var[T] = \frac{1}{\lambda ^2}$$
+$$\sigma[T] = \frac{1}{\lambda}$$
 
 ## Applications
 
 ### Radioactive Half-life
 
-By definition, the half-life the time when it is expected that half of the
-mass has decayed and the other half not. In mathematical terms:
+By definition, the half-life ($t_{1/2}$) is time required for exactly half of the
+radioactive mass to decay. In mathematical terms:
 
 $$F(t_{1/2}) = 0.5$$
 
-By substituting the values in the CDF formula:
+By substituting the values in the CDF formula and solving for $\lambda$:
 
-$$\lambda = \frac{ln 2}{t_{1/2}}$$
+$$ 1 - e^{-\lambda t_{1/2}} = 0.5 $$
+$$ e^{-\lambda t_{1/2}} = - 0.5 $$
+$$ -\lambda t_{1/2} = \ln{0.5} = - \ln(2) $$
+$$ \lambda = \frac{\ln(2)}{t_{1/2}} $$
