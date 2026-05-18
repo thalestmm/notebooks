@@ -41,13 +41,19 @@ $\lambda =np$ and $P[X=k]=\frac{\lambda^k}{k!}e^{-\lambda}$.
 There are a few methods we can use to infer if a given set of observations can
 be modeled by the normal distribution.
 
-### Relative Frequency Histogram
+### Descriptive Tests
+
+The following methods provide great insight into evaluating if a given sample
+fits a normal distribution. However, a more rigorous analysis is needed to
+properly label the distribution.
+
+#### Relative Frequency Histogram
 
 - Must be bell-shaped
 - Must be symmetric in relation to the center
 - Must be unimodal (single peak)
 
-### Interquartile Range (IQR)
+#### Interquartile Range (IQR)
 
 $$ IQR = Q3 - Q1$$
 
@@ -55,7 +61,7 @@ In a theoretical normal distribution, the IQR is approximately $1.349 * \sigma$.
 To evaluate a given distribution, just calculate this ratio. It should be close
 to $1.3$.
 
-### Quantile-Quantile (Q-Q) Plot
+#### Quantile-Quantile (Q-Q) Plot
 
 It is the most effective descriptive tool to evaluate normality. This graph plots
 the actual quantiles of the sample in the y-axis and the theoretical quantiles in
