@@ -7,5 +7,5 @@ try and add the references to each notebook.
 
 ---
 
-If you want to export these notebooks as PDF files, i recommend checking
+If you want to export these notebooks as PDF files, I recommend checking
 out [wmd](https://github.com/thalestmm/wmd).
