@@ -1,5 +1,27 @@
 # Joint Distributions
 
+Take $X$ and $Y$ two random variables, such that:
+
+$$ P (x,y) = P(X=x, Y=y) $$
+
+The PDF is defined as $f(x,y)$ and the probability
+that we observe an event inside a given area $A$ is:
+
+$$ P ((x,y) \in A) = \int\limits_A f(x,y)dxdy $$
+
+## Independence
+
+The two variables are independent if
+
+$$ P (X=x, Y=y) = P(X=x)\times P(Y=y) $$
+
+Which can be used for separation of variables.
+
+One point to be considered, in variable decomposition,
+is that some coordinate systems are more suitable,
+in a given scenario, to variable separation as opposed
+to others.
+
 ## Marginal Distribution
 
 A marginal distribution considers a subset of variables:
@@ -41,3 +63,4 @@ $$ P (X = x | Y=y ) = \frac{P(Y=y | X=x)\times P(X=x)}{P(Y=y)} $$
 ## References
 
 * [Basics of joint probability](https://www.youtube.com/watch?v=CQS4xxz-2s4)
+* [Joint Probability Distributions](https://www.youtube.com/watch?v=NBo5bXIX7Ac)
