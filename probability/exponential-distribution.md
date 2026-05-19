@@ -40,6 +40,10 @@ occurrence). In mathematical terms:
 
 $$P[T > t + s | T > s] = P[T > t]$$
 
+### Hazard Rate
+
+$$ P[t < T \leq t + dt] = \lambda P[T > t]dt \approx \lambda dt $$
+
 ## Expected Values
 
 $$E[T] = \frac{1}{\lambda}$$
@@ -65,3 +69,4 @@ $$ \lambda = \frac{\ln(2)}{t_{1/2}} $$
 ## References
 
 * [The Exponential Distribution: Time Between Poisson Events](https://www.youtube.com/watch?v=C7V3d2yB58U)
+* [The Hazard Rate and Memoryless Property of the Exponential Distribution](https://www.youtube.com/watch?v=8qZilAKQM6s)
