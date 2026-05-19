@@ -5,9 +5,9 @@ Take $X$ and $Y$ two random variables, such that:
 $$ P (x,y) = P(X=x, Y=y) $$
 
 The PDF is defined as $f(x,y)$ and the probability
-that we observe an event inside a given area $A$ is:
+that we observe an event inside a given 2D area $A$ is:
 
-$$ P ((x,y) \in A) = \int\limits_A f(x,y)dxdy $$
+$$ P ((x,y) \in A) = \int_A f(x,y)dxdy $$
 
 ## Independence
 
@@ -36,7 +36,7 @@ $$ P(X=x) = \sum_{y \in Y}P(X=x, Y=y) $$
 
 For continuous values, we integrate out the others:
 
-$$ p(x) = \int\limits_{Y}p(x,y)dy $$
+$$ p(x) = \int_\limits{-\infty}^{\infty}p(x,y)dy $$
 
 ## Conditional Distribution
 
@@ -64,3 +64,4 @@ $$ P (X = x | Y=y ) = \frac{P(Y=y | X=x)\times P(X=x)}{P(Y=y)} $$
 
 * [Basics of joint probability](https://www.youtube.com/watch?v=CQS4xxz-2s4)
 * [Joint Probability Distributions](https://www.youtube.com/watch?v=NBo5bXIX7Ac)
+* [Joint Probability Distributions: Marginal and Conditional Densities](https://www.youtube.com/watch?v=pribJ8bUBzo)
