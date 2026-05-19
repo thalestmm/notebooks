@@ -10,6 +10,10 @@ $$ f(x,k,p) = \binom{x-1}{k-1}p^k(1-p)^{x-k} , x \geq k$$
 This distribution models the number of total repetitions
 before the $k^{th}$ success.
 
+## Characteristics
+
+This distribution is generally asymmetric for small probabilities.
+
 ## Expected Values
 
 These are the moments for the number of total trials:
