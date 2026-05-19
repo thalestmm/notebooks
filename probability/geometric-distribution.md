@@ -39,3 +39,7 @@ Plugging back in:
 $$ P[X\geq n] = \frac{(1-p)^{n-1}p}{p} =  (1-p)^{n-1}$$
 
 Which turns out to be a very simple expression.
+
+## References
+
+- [The Geometric Distribution: The First Success of a Bernoulli Distribution](https://www.youtube.com/watch?v=0lpOeU6JZZw)
