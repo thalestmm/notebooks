@@ -5,6 +5,8 @@
 In this scenario, a Bernoulli trial is repeated until $k$
 successes are observed.
 
+$$ X \sim pascal(k,p) $$
+
 $$ f(x,k,p) = \binom{x-1}{k-1}p^k(1-p)^{x-k} , x \geq k$$
 
 This distribution models the number of total repetitions
