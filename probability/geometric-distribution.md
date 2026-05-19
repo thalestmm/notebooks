@@ -32,7 +32,7 @@ Since $(1 - p) < 1$, the right portion of the expression is
 a geometric sequence, and the infinite summation can be approximated
 as:
 
-$$ S_{\infty} = \frac{a_1}{1-q} \Rightarrow S_{\infty} \frac{1}{1 - (1-p)} = \frac{1}{p} $$
+$$ S_{\infty} = \frac{a_1}{1-q} \Rightarrow S_{\infty} = \frac{1}{1 - (1-p)} = \frac{1}{p} $$
 
 Plugging back in:
 
